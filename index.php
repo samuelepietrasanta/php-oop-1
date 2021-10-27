@@ -72,6 +72,9 @@ $tutti_i_film  = [
 
 ?>
 
+//*STAMPO CIO' CHE VOGLIO VEDERE ATTRAVERSO UNA PAGINA HTML 
+
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -85,9 +88,8 @@ $tutti_i_film  = [
     
     <?php foreach ($tutti_i_film as $film){?>
     
-    <h1><?= $film->get_title(); ?></h1>
-    <p><?= $film->get_year();?>
-    </p>
+    <h1><?= $film->get_title(); ?>   </h1>
+    <p><?= $film->get_year();?>  </p>
 
     <?php }?>
     
