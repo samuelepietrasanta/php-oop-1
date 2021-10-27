@@ -64,15 +64,15 @@ class Movie{
 
 
 //!LA LISTA DELLE NUOVE ISTANZE
+/* $tutti_i_film  = array( */
+    $harry_potter1 = new Movie("Harry Potter e la pietra filosofale", "2001", "fantasy", "UK");
+    $harry_potter2 = new Movie("Harry Potter e la camera dei segreti", "2002", "fantasy", "UK");
+    $inception = new Movie("Inception" , "2010" , "action", "USA");
+/* ); */
 
-$harry_potter1 = new Movie("Harry Potter e la pietra filosofale", "2001", "fantasy", "UK");
-$harry_potter2 = new Movie("Harry Potter e la camera dei segreti", "2002", "fantasy", "UK");
-$inception = new Movie("Inception" , "2010" , "action", "USA");
-
-
-echo $harry_potter1->get_title();
+echo $harry_potter1->get_title() ;
 echo $harry_potter1->get_country();
-echo $harry_potter1->get_year();
+echo $harry_potter1->get_year() ;
 echo $harry_potter1->get_genre();
 
 ?>
